@@ -8,7 +8,7 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
-filename = 'linear_regressor_score1.pkl'
+filename = 'linear_regressor_score_00.pkl'
 regressor = pickle.load(open(filename,'rb'))
  
 app = Flask(__name__)
